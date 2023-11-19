@@ -1,0 +1,69 @@
+body{
+    background-image: url("") ;
+}
+
+
+.myContainer {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  
+  .itembox {
+    color: white;
+    font-size: 50px;
+    padding: .3em;
+  }
+  
+  .one {
+    background: #D99CD5;
+    grid-column: 1 / 1;
+  
+  }
+  
+  .two {
+    background: #1B418C;
+    grid-column: 2 / 5;
+  }
+  
+  .three {
+    background: #027368;
+    grid-row-end: span 3;
+    
+  }
+  
+  .four {
+    background: #BF7C2A;
+    grid-row-end: span 5;
+  
+  
+  }
+  
+  .five {
+    background: #BF2121;
+    grid-column-end: span 1;
+    grid-row-end: span 5;
+  }
+  
+  .six {
+    background: #A61C81;
+    grid-row-end: span 5;
+  }
+  
+  .seven {
+    background: #02e568;
+    grid-row-end: span 3;
+  }
+  
+  .eight {
+    background: #0268;
+  }
+  
+  .nine {
+    background: #0109;
+  }
+  
+  .ten {
+    background: #a4d4;
+  }
